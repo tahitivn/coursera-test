@@ -16,7 +16,7 @@ angular.module('NameCalculator',[])
     var stringcalculate = 0;
     for (var i = 0; i < string.length; i++)
     {
-     stringcalculate = stringcalculate + string.CharCodeAt(i);
+     stringcalculate += string.charCodeAt(i);
     }
      return stringcalculate;
    }
